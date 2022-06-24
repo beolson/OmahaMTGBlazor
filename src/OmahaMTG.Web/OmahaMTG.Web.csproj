@@ -17,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OmahaMRG.Application\OmahaMRG.Application.csproj" />
     <ProjectReference Include="..\OmahaMTG.Blazor\OmahaMTG.Blazor.csproj" />
+    <ProjectReference Include="..\OmahaMTG.Infrastructure\OmahaMTG.Infrastructure.csproj" />
   </ItemGroup>
 
 	<ItemGroup>

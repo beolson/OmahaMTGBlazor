@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>OmahaMTG.Integration.Tests</_Parameter1>
+		</AssemblyAttribute>
+
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\OmahaMRG.Application\OmahaMRG.Application.csproj" />
+	</ItemGroup>
+
 </Project>
